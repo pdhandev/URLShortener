@@ -30,7 +30,6 @@ public class ToImplementTests {
     }
 
     String shortURI = impl.set(testURL);
-    System.out.print("I am in boundary: " + shortURI);
     assert shortURI.equals(expected);
 
     String longURI = impl.get(shortURI);
